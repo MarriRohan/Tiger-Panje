@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.hero {
+  background: #ff6a00;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  background: white;
+  color: #ff6a00;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.features, .catalog {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.feature-list div, .catalog-grid div {
+  margin-bottom: 20px;
+}
+
+.catalog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.catalog-grid div {
+  flex: 1 1 30%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
